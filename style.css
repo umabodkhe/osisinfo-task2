@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f1220;
+  color: #ffffff;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  color: #fdbb2d;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+nav ul li a:hover {
+  color: #fdbb2d;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text h3 {
+  color: #fdbb2d;
+  margin: 10px 0;
+}
+
+.hero-text p {
+  max-width: 450px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #fdbb2d;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-img img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px 0;
+  background: #13162a;
+}
+
+.stats h2 {
+  color: #fdbb2d;
+  font-size: 32px;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 60px;
+}
+
+.card {
+  background: #13162a;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.highlight {
+  background: #fdbb2d;
+  color: #000;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b0d1a;
+  color: #777;
+}
